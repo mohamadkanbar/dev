@@ -1,0 +1,173 @@
+.input-container {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+/* ===========================================textarea*/
+
+#contact form textarea {
+    overflow: auto;
+    resize: vertical;
+    height: 130px;
+}
+
+/* ==============================================form */
+
+#contact .contactborder{
+  border-top: 3px solid #0f3352 !important;
+    border-left: 3px solid #0f3352;
+    border-right: 3px solid #0f3352;
+    max-width: 70%;
+    height: 720px;
+    background-color: 
+}
+#contact .label-option {
+
+    color: dimgray;
+    text-align: start;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: gray;
+}
+#contact .contactborder .btn{
+  background-color: dodgerblue;
+    color: white;
+    /* padding: 15px 20px; */
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    align-self: center;
+    opacity: 0.9;
+    height: 48px;
+}
+#contact .contactborder .btn:hover{
+  background-color: #0c4572;
+    color: #fff;
+    /* padding: 15px 20px; */
+    cursor: pointer;
+    width: 100%;
+
+    font-weight: 500;
+    font-size: 20px;
+    opacity: 0.9;
+    height: 55px;
+}
+
+#form-name{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/*============================================contact img */
+#contactimg {
+    margin-top: -26px;
+    max-width: 80%;
+ 
+}
+
+@media screen and (max-width: 1295px) {
+    #contactimg {
+    margin-top: -40px;
+    max-width: 80%;
+ }
+    #contact .contactborder{
+    max-width: 70%;
+    height: 720px;
+}
+
+}
+@media screen and (max-width: 1090px) {
+    #contactimg {
+    margin-top: -20px;
+    max-width: 80%;
+ }
+    #contact .contactborder{
+    max-width: 70%;
+    height: 720px;
+}
+
+}
+@media screen and (max-width: 1090px) {
+    #contactimg {
+    margin-top: -15px;
+    max-width: 80%;
+ }
+    #contact .contactborder{
+    max-width: 70%;
+    height: 720px;
+}
+
+}
+/*@media screen and (max-width: 527px) {
+    #contactimg {
+    margin-top: -300px;
+    max-width: 80%;
+ }
+    #contact .contactborder{
+    max-width: 70%;
+    height: 720px;
+}
+
+}*/
+
+@media screen and (min-width: 280px) {
+    #contactimg {
+    margin-top: -120px;
+    max-width: 100%;
+ }
+    #contact .contactborder{
+    max-width: 80%;
+    height: 900px;
+}
+
+}
+
+@media screen and (max-width: 280px) {
+    #contactimg {
+    margin-top: -80px;
+    max-width: 100%;
+ }
+    #contact .contactborder{
+    max-width: 80%;
+    height: 900px;
+}
+
+}
